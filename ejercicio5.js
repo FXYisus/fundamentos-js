@@ -8,4 +8,4 @@ if (edad >= 0 && edad <= 12) {
     console.log(`Eres un adolescente de ${edad}`);
 } else {
     console.log(`Eres un adulto de ${edad}`);
-}
+};
