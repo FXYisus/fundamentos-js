@@ -1,8 +1,8 @@
-let a = 25;
-let b = "25";
-let c = true;
+// Creá una variable con tu nombre y otra con tu edad,
+// e imprimí un mensaje que diga "Me llamo X y tengo Y años"
+// usando template literals (` `).
 
-console.log(typeof a);
-console.log(typeof b);
-console.log(typeof c);
-console.log(typeof 25.5); // ¿es distinto a typeof 25?
+const nombre = "Jesús";
+let edad = 18;
+
+console.log(`Me llamo ${nombre} y tengo ${edad} años de edad`);
